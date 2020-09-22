@@ -1,0 +1,95 @@
+[Root]
+Most Recent Package=master
+
+[Package|master|Package]
+PackageFolder=D:\Doug\Volume Control\Server\MVCSetup
+ProjectFolder=D:\Doug\Volume Control\Server
+ServerSideCab=
+File1=D:\Doug\Volume Control\Server\MVCSetup\setup.exe
+File2=D:\Doug\Volume Control\Server\MVCSetup\Setup.Lst
+File3=D:\Doug\Volume Control\Server\MVCSetup\MastrVolCtlr32.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|master|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Doug\Volume Control\Server\MVCSetup
+
+[Package|master|Configure DAO ISAMs]
+Applicable=No
+
+[Package|master|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|master|Files Found]
+
+[Package|master|Files Released]
+
+[Package|master|Missing Dependency Information]
+
+[Package|master|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCTL32.OCX=
+C:\WINDOWS\system32\MSWINSCK.OCX=
+
+[Package|master|Files Added]
+
+[Package|master|Files Removed]
+
+[Package|master|Files In Project]
+D:\Doug\Volume Control\Server\MastrVolCtlr32.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|master|Configure Registry Files]
+Applicable=No
+
+[Package|master|Configure Remote Servers]
+Applicable=No
+
+[Package|master|Install Locations]
+D:\Doug\Volume Control\Server\MastrVolCtlr32.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(AppPath)\Support
+C:\WINDOWS\system32\COMCTL32.OCX=$(AppPath)\Support
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|master|Configure Shared Files]
+Applicable=Yes
+D:\Doug\Volume Control\Server\MastrVolCtlr32.exe=No
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+
+[Package|master|Distribution]
+Type=single
+Size=
+Title=Master Volume Controller
+
+[Package|master|IconGroups]
+Group0=Master Volume Controller
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|master|Master Volume Controller]
+Icon1=MastrVolCtlr32.exe
+Title1=Master Volume Controller
+StartIn1=$(AppPath)
+Key1=Icon1

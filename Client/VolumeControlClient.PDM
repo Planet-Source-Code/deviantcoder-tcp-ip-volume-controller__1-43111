@@ -1,0 +1,85 @@
+[Root]
+Most Recent Package=client
+
+
+[Package|client|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Doug\Volume Control\Client\VCClientSetup
+
+[Package|client|Configure DAO ISAMs]
+Applicable=No
+
+[Package|client|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|client|Files Found]
+
+[Package|client|Files Released]
+
+[Package|client|Missing Dependency Information]
+
+[Package|client|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSWINSCK.OCX=
+
+[Package|client|Files Added]
+
+[Package|client|Files Removed]
+
+[Package|client|Files In Project]
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Doug\Volume Control\Client\vcc32.exe=Yes
+
+[Package|client|Configure Registry Files]
+Applicable=No
+
+[Package|client|Configure Remote Servers]
+Applicable=No
+
+[Package|client|Install Locations]
+D:\Volume Control\Client\volctl32.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=$(AppPath)\Support
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Doug\volume\Volume Control\Volume Control\Client\volctl32.exe=$(AppPath)
+D:\Doug\Volume Control\Client\vcc32.exe=$(AppPath)
+
+[Package|client|Configure Shared Files]
+Applicable=Yes
+D:\Volume Control\Client\volctl32.exe=No
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=Yes
+D:\Doug\volume\Volume Control\Volume Control\Client\volctl32.exe=No
+D:\Doug\Volume Control\Client\vcc32.exe=No
+
+[Package|client|Distribution]
+Type=single
+Size=
+Title=Volume Control Client
+
+[Package|client|Package]
+PackageFolder=D:\Doug\Volume Control\Client\VCClientSetup
+ProjectFolder=D:\Doug\Volume Control\Client
+ServerSideCab=
+File1=D:\Doug\Volume Control\Client\VCClientSetup\setup.exe
+File2=D:\Doug\Volume Control\Client\VCClientSetup\Setup.Lst
+File3=D:\Doug\Volume Control\Client\VCClientSetup\vcc32.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
